@@ -1,0 +1,32 @@
+.penguin-btn {
+    background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    padding: 14px 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.penguin-btn img {
+    height: 24px;
+    width: 30px;
+}
+
+.img-card img {
+    background-color: #F1F1F1;
+}
+
+@media only screen and (min-width:360px) and (max-width:768px) {
+    body {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    nav{
+        overflow-x: hidden;
+    }
+    .banner-container{
+        overflow-x: hidden;
+    }
+    .model-img {
+        width: 50%;
+    }
+}
