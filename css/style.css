@@ -20,13 +20,15 @@
         width: 100%;
         flex-wrap: wrap;
     }
-    nav{
+    nav {
         overflow-x: hidden;
     }
-    .banner-container{
-        overflow-x: hidden;
+    .banner-container, .woman-section, .man-section, .contact-section {
+        overflow: hidden;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .model-img {
-        width: 50%;
+        width: 90%;
     }
 }
